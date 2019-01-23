@@ -1,4 +1,4 @@
-package me.onee.springcloud.service.impl;
+package me.onee.springcloud.service.hystrix;
 
 import me.onee.springcloud.service.SchedualServiceHi;
 import org.springframework.stereotype.Component;

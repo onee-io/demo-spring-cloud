@@ -1,6 +1,6 @@
 package me.onee.springcloud.service;
 
-import me.onee.springcloud.service.impl.SchdualServiceHiHysrix;
+import me.onee.springcloud.service.hystrix.SchdualServiceHiHysrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
