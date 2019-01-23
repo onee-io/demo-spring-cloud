@@ -13,6 +13,7 @@
         <module>service-zuul</module>
         <module>config-server</module>
         <module>config-client</module>
+        <module>service-miya</module>
     </modules>
 
     <parent>
@@ -71,6 +72,11 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-bus-amqp</artifactId>
                 <version>2.0.0.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-zipkin</artifactId>
+                <version>2.0.2.RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
