@@ -6,7 +6,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>eureka-server</module>
-        <module>erueka-client</module>
         <module>service-hi</module>
         <module>service-ribbon</module>
         <module>service-feign</module>
@@ -15,6 +14,7 @@
         <module>config-client</module>
         <module>service-miya</module>
         <module>service-turbine</module>
+        <module>gateway</module>
     </modules>
 
     <parent>
@@ -87,6 +87,11 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-zipkin</artifactId>
+                <version>2.0.2.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-gateway</artifactId>
                 <version>2.0.2.RELEASE</version>
             </dependency>
         </dependencies>
