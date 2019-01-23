@@ -18,7 +18,7 @@ public class HiController {
 
     @GetMapping
     public String sayHi(@RequestParam String name) {
-        return schedualServiceHi.sayHi(name);
+        return "feign - " + schedualServiceHi.sayHi(name);
     }
 
 }
